@@ -1,0 +1,34 @@
+{
+  "name": "project",
+  "plural": "projects",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "guid": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "wordcount": {
+      "type": "number",
+      "required": true
+    },
+    "last_updated": {
+      "type": "date",
+      "required": true
+    },
+    "history": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
